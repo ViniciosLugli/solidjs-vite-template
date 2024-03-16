@@ -1,7 +1,7 @@
 import toast from 'solid-toast';
 import { Tooltip } from '@ark-ui/solid';
 import { Portal } from 'solid-js/web';
-import ParticlesAnimation from '@components/particle_animation';
+import ParticlesAnimation from '@components/particles_animation';
 import { Show, createSignal } from 'solid-js';
 
 const Home = () => {
