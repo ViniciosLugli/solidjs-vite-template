@@ -1,0 +1,1 @@
+# solidjs-vite-template
