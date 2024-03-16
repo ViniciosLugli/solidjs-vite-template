@@ -16,21 +16,22 @@ const Home = () => {
 	return (
 		<>
 			<div class="flex text-3xl text-center justify-center items-center h-screen">
-				<Tooltip.Root openDelay={250} closeDelay={250} positioning={{ placement: 'top' }}>
-					<Tooltip.Trigger>
-						<button class="font-bold underline" onClick={notify}>
-							Make me a toast
-						</button>
-					</Tooltip.Trigger>
-					<Portal>
-						<Tooltip.Positioner>
-							<Tooltip.Content class="bg-blue-500 text-white rounded-md p-2">Test tooltip</Tooltip.Content>
-						</Tooltip.Positioner>
-					</Portal>
-				</Tooltip.Root>
-			</div>
-			<div class="flex text-3xl text-center justify-center items-center h-screen">
-				<Show when={show()}>
+				<div class="flex text-3xl text-center justify-center items-center h-screen">
+					<Tooltip.Root openDelay={250} closeDelay={250} positioning={{ placement: 'top' }}>
+						<Tooltip.Trigger>
+							<button class="font-bold underline" onClick={notify}>
+								Make me a toast
+							</button>
+						</Tooltip.Trigger>
+						<Portal>
+							<Tooltip.Positioner>
+								<Tooltip.Content class="bg-blue-500 text-white rounded-md p-2">Test tooltip</Tooltip.Content>
+							</Tooltip.Positioner>
+						</Portal>
+					</Tooltip.Root>
+				</div>
+				<img src="static/image.svg" alt="test image" width="255" height="255" />
+				<Show when={show()} fallback={<div>Click the button to see the particles animation</div>}>
 					<ParticlesAnimation />
 				</Show>
 			</div>

@@ -36,3 +36,5 @@ npm run build
 -   https://github.com/tsparticles/solid
 -   https://vitejs.dev/
 -   https://tailwindcss.com/
+-   https://github.com/nonzzz/vite-plugin-compression
+-   https://github.com/terser/terser
