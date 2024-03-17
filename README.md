@@ -1,5 +1,7 @@
 # solidjs-vite-template
 
+[Demo deploy on Vercel](https://solidjs-vite-template.vercel.app/)
+
 ## How to use
 
 Clone the repository
@@ -28,7 +30,6 @@ npm run build
 
 ## Used main packages:
 
--   https://felte.dev/docs/solid/getting-started
 -   https://ark-ui.com/docs/overview/introduction
 -   https://github.com/solidjs/solid-router
 -   https://github.com/solidjs/solid-meta
