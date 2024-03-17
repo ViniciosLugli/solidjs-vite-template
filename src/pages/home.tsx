@@ -1,7 +1,6 @@
 import toast from 'solid-toast';
 import { Tooltip } from '@ark-ui/solid';
 import { Portal } from 'solid-js/web';
-import ParticlesAnimation from '@components/particles_animation';
 import { Show, createSignal } from 'solid-js';
 
 const Home = () => {
@@ -31,9 +30,6 @@ const Home = () => {
 					</Tooltip.Root>
 				</div>
 				<img src="static/image.svg" alt="test image" width="255" height="255" />
-				<Show when={show()} fallback={<div>Click the button to see the particles animation</div>}>
-					<ParticlesAnimation />
-				</Show>
 			</div>
 		</>
 	);
