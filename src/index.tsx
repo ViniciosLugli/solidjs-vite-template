@@ -15,10 +15,10 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 render(
 	() => (
 		<>
+			<Toaster position="top-center" gutter={8} />
 			<Router>
 				<Route path="/" component={Home} />
 			</Router>
-			<Toaster />
 		</>
 	),
 	root!

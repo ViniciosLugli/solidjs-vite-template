@@ -34,7 +34,6 @@ npm run build
 -   https://github.com/solidjs/solid-router
 -   https://github.com/solidjs/solid-meta
 -   https://www.solid-toast.com/
--   https://github.com/tsparticles/solid
 -   https://vitejs.dev/
 -   https://tailwindcss.com/
 -   https://github.com/nonzzz/vite-plugin-compression
